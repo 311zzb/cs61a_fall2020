@@ -1,0 +1,24 @@
+{
+    "name": "Homework 2",
+    "endpoint": "cal/cs61a/fa20/hw02",
+    "src": [
+        "hw02.py"
+    ],
+    "tests": {
+        "hw*.py": "doctest",
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "num_eights",
+        "pingpong",
+        "missing_digits",
+        "count_coins"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
