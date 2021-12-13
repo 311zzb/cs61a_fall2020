@@ -239,7 +239,6 @@ def fastest_words(game):
         result[fatest_player].append(word_at(game, w))
 
     return result
-
     # END PROBLEM 10
 
 
