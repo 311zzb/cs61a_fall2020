@@ -1,0 +1,31 @@
+{
+    "name": "Lab 7",
+    "endpoint": "cal/cs61a/fa20/lab07",
+    "src": [
+        "lab07.py",
+        "classes.py"
+    ],
+    "tests": {
+        "lab*.py": "doctest",
+        "tests/*.py": "ok_test",
+        "classes.py": "doctest"
+    },
+    "default_tests": [
+        "scale",
+        "hailstone",
+        "wwpd-car",
+        "Card.__init__",
+        "Card.power",
+        "Player.__init__",
+        "Player.draw",
+        "Player.play"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
