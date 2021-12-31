@@ -1,0 +1,22 @@
+{
+    "name": "Lab 9",
+    "endpoint": "cal/cs61a/fa20/lab09",
+    "src": [
+        "lab09.py"
+    ],
+    "tests": {
+        "lab*.py": "doctest",
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "Tree.__contains__"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
