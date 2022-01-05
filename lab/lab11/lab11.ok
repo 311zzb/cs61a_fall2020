@@ -1,0 +1,25 @@
+{
+    "name": "Lab 11",
+    "endpoint": "cal/cs61a/fa20/lab11",
+    "src": [
+        "expr.py",
+        "repl.py"
+    ],
+    "tests": {
+        "*.py": "doctest",
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "prologue_reader",
+        "Name.eval",
+        "CallExpr.eval"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
