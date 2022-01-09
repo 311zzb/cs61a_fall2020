@@ -1,0 +1,24 @@
+{
+    "name": "Homework 9",
+    "endpoint": "cal/cs61a/fa20/hw09",
+    "src": [
+        "hw09.sql",
+        "hw09.scm"
+    ],
+    "tests": {
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "size_of_dogs",
+        "by_parent_height",
+        "sentences"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
