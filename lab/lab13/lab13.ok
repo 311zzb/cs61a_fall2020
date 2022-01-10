@@ -1,0 +1,21 @@
+{
+    "name": "Lab 13",
+    "endpoint": "cal/cs61a/fa20/lab13",
+    "src": [
+        "lab13.sql"
+    ],
+    "tests": {
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "default"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
